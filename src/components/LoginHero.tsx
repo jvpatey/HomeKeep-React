@@ -1,4 +1,8 @@
-export function LoginHero() {
+interface LoginHeroProps {
+  children?: React.ReactNode;
+}
+
+export function LoginHero({ children }: LoginHeroProps) {
   return (
     <div className="hero min-h-screen bg-clean dark:bg-slate">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -15,6 +19,7 @@ export function LoginHero() {
             Start simplifying your life today.
           </p>
         </div>
+        {children}
       </div>
     </div>
   );
