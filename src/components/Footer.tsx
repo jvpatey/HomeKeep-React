@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="fixed bottom-0 left-0 w-full bg-clean dark:bg-slate shadow">
+    <footer className="fixed bottom-0 left-0 w-full bg-clean dark:bg-slate shadow font-sans">
       <div className="flex items-center justify-between p-4">
         <span className="text-md font-normal text-charcoal dark:text-clean">
           © 2024 • HomeKeep by Jeffrey Patey • All Rights Reserved

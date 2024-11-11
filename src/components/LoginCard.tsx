@@ -1,6 +1,6 @@
 export function LoginCard() {
   return (
-    <div className="card w-full max-w-md shadow-2xl bg-marine mb-24 mx-auto">
+    <div className="card w-full max-w-md shadow-2xl bg-marine mb-24 mx-auto font-sans">
       <div className="card-body">
         <h1 className="text-center p-2 text-3xl mb-5 font-base text-clean dark:text-slate border-b border-clean dark:border-slate">
           Sign In
