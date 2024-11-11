@@ -19,9 +19,6 @@ export function Footer() {
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
-        <button className="text-2xl bg-feather p-3 text-clean rounded-2xl hover:bg-marine">
-          <i className="fa-solid fa-comment"></i>
-        </button>
       </div>
     </footer>
   );
