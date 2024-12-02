@@ -4,9 +4,9 @@ interface LoginHeroProps {
 
 export function LoginHero({ children }: LoginHeroProps) {
   return (
-    <div className="hero min-h-screen bg-clean dark:bg-slate font-sans">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="text-center">
+    <div className="hero min-h-screen w-full bg-clean dark:bg-slate font-sans">
+      <div className="hero-content flex-col lg:flex-row-reverse w-full max-w-full">
+        <div className="text-center w-full">
           <h1 className="lg:flex md:inline text-5xl font-bold lg:ml-6 md:ml-2 text-forest dark:text-clean">
             Welcome to
           </h1>

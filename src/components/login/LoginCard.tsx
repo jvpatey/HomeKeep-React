@@ -9,7 +9,7 @@ export function LoginCard() {
 
   return (
     <>
-      <div className="card w-full max-w-md shadow-2xl bg-marine mb-24 mx-auto">
+      <div className="card w-full max-w-lg shadow-2xl bg-marine mb-24 mx-auto">
         <div className="card-body">
           <h1 className="text-center p-2 text-3xl mb-5 font-base text-clean dark:text-slate border-b border-clean dark:border-slate">
             Sign In
@@ -52,13 +52,13 @@ export function LoginCard() {
             <div className="flex justify-center space-x-4">
               <button
                 onClick={openModal}
-                className="text-sm font-semibold bg-feather text-clean hover:text-feather hover:border-none hover:bg-clean dark:text-slate dark:hover:bg-slate dark:hover:text-feather focus:outline-none"
+                className="text-sm font-semibold border-none bg-marine text-clean hover:text-feather hover:border-none hover:bg-clean dark:text-slate dark:hover:bg-slate dark:hover:text-feather focus:outline-none"
               >
                 Create an account
               </button>
               <button
                 onClick={() => alert("Forgot Password Clicked")}
-                className="text-sm font-semibold bg-feather text-clean hover:text-feather hover:border-none hover:bg-clean dark:text-slate dark:hover:bg-slate dark:hover:text-feather focus:outline-none"
+                className="text-sm font-semibold border-none bg-marine text-clean hover:text-feather hover:border-none hover:bg-clean dark:text-slate dark:hover:bg-slate dark:hover:text-feather focus:outline-none"
               >
                 Forgot password?
               </button>
